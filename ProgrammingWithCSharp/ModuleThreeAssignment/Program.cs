@@ -13,7 +13,7 @@ namespace ModuleThreeAssignment
             string studentFirstName;
             string studentLastName;
             string studentBirthday;
-
+            
             string teacherFirstName;
             string teacherLastName;
             string teacherBirthday;
@@ -41,14 +41,8 @@ namespace ModuleThreeAssignment
             PrintUprogramDetails(uprogramName, deptHead, degrees);
             PrintDegreeDetails(degreeName, credits4degree);
 
-            try
-            {
-                ValidateStudentBirthday();
-            }
-            catch (NotImplementedException notImp)
-            {
-                Console.WriteLine(notImp.Message);
-            }
+            ValidateStudentBirthday(studentBirthday);
+                       
         }
 
         static void GetStudentInformation(out string firstName, out string lastName, out string birthday)
@@ -128,10 +122,18 @@ namespace ModuleThreeAssignment
             Console.WriteLine("{0} {1}", degreeName, credits4degree);
         }
 
-        static void ValidateStudentBirthday()
+        static void ValidateStudentBirthday(string birthday)
         {
-            // Not developed yet.
-            throw new NotImplementedException();
+            try
+            {
+                DateTime.Parse(birthday);
+                
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e.Message);
+            }
+            
         }
     }
 }
