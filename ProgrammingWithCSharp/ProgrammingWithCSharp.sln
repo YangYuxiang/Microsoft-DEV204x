@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModuleThreeAssignment", "Mo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModuleFourAssignment", "ModuleFourAssignment\ModuleFourAssignment.csproj", "{7F3F19FA-02FB-45E5-B9F9-4252ACD52E92}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModuleFiveAssignment", "ModuleFiveAssignment\ModuleFiveAssignment.csproj", "{CFD27905-1622-47CC-889F-685D39D29EF5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{7F3F19FA-02FB-45E5-B9F9-4252ACD52E92}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7F3F19FA-02FB-45E5-B9F9-4252ACD52E92}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7F3F19FA-02FB-45E5-B9F9-4252ACD52E92}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CFD27905-1622-47CC-889F-685D39D29EF5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CFD27905-1622-47CC-889F-685D39D29EF5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CFD27905-1622-47CC-889F-685D39D29EF5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CFD27905-1622-47CC-889F-685D39D29EF5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
