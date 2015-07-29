@@ -6,22 +6,8 @@ using System.Threading.Tasks;
 
 namespace ModuleSixAssignment
 {
-    class Teacher
+    class Person
     {
-        public Teacher(string firstName, string lastName, string birthdate, string addressLine1,
-               string addressLine2, string city, string province, string postal, string country)
-        {
-            this.FirstName = firstName;
-            this.LastName = lastName;
-            this.BirthDate = birthdate;
-            this.AddressLine1 = addressLine1;
-            this.AddressLine2 = addressLine2;
-            this.City = city;
-            this.Province = province;
-            this.Postal = postal;
-            this.Country = country;
-        }
-
         private string firstName;
 
         public string FirstName
@@ -43,20 +29,6 @@ namespace ModuleSixAssignment
             get { return birthDate; }
             set { birthDate = value; }
         }
-        private string addressLine1;
-
-        public string AddressLine1
-        {
-            get { return addressLine1; }
-            set { addressLine1 = value; }
-        }
-        private string addressLine2;
-
-        public string AddressLine2
-        {
-            get { return addressLine2; }
-            set { addressLine2 = value; }
-        }
         private string city;
 
         public string City
@@ -71,13 +43,6 @@ namespace ModuleSixAssignment
             get { return province; }
             set { province = value; }
         }
-        private string postal;
-
-        public string Postal
-        {
-            get { return postal; }
-            set { postal = value; }
-        }
         private string country;
 
         public string Country
@@ -85,5 +50,7 @@ namespace ModuleSixAssignment
             get { return country; }
             set { country = value; }
         }
+
+        
     }
 }
